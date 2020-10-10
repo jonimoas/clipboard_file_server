@@ -8,4 +8,4 @@ and upload and download files from it.
 
 simply run and hit the 4567 port on the remote system
 
-![Screenshot](/screenshot.png)
+![Screenshot](/screenshot.PNG)
