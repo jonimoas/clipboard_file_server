@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Clipboard And File Server</title>
+    </head>
+    <body>
+        <h3>Files</h3>
+        <form action="/file" method="POST" enctype="multipart/form-data">
+            <input type="file" name="file">
+            <br>
+            <input type="submit" value="Upload File">
+        </form>
+        <a href="/files"><h3>File List</h3></a>
+        <h3>Clipboard</h3>
+        <form action="/copy" method="POST" enctype="multipart/form-data">
+            <input type="text" name="text">
+            <br>
+            <input type="submit" value="Copy">
+        </form>
+        <a href="/paste"><h3>View</h3></a>
+    </body>
+</html>

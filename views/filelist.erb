@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>Clipboard And File Server: File List</title>
+    </head>
+    <body>
+        <h3>Files in server</h3>
+        <% @files.each do |file| -%>
+            <a href="/file/<%= file %>"><%= file %></a>
+            <br>
+        <% end  -%>
+        <br>
+        <a href="/">Return</a>
+    </body>
+</html>
