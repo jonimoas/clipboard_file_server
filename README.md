@@ -7,3 +7,5 @@ Allows you to view and change the clipboard on the remote system
 and upload and download files from it.
 
 simply run and hit the 4567 port on the remote system
+
+![Screenshot](/screenshot.png)
